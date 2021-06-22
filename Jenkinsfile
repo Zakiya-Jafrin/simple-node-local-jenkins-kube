@@ -1,7 +1,7 @@
 pipeline {
   environment {
-    registry = "knsakib/simple-node-local-jenkins-kube" 
-    registryCredential = '4ac13e38-8252-49a6-92f1-e2bcd019ade0' 
+    registry = "zakiyasifat/simple-node-local-jenkins-kube" 
+    registryCredential = '07f94c1d-6a84-4f11-a051-d8da6867566d' 
     dockerImage = ''
     CI = 'true'
   }
