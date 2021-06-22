@@ -27,7 +27,7 @@ pipeline {
       steps {
         script {
         sh """
-        helm upgrade --install local-kube helm-local-jenkins-kube
+        helm upgrade --install local-kube helm-file
         """
         // sh """
         // kubectl create secret docker-registry IMG_PULL_SECRET \
